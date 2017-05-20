@@ -1,0 +1,188 @@
+index.php
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage Twenty_Sixteen
+ * @since Twenty Sixteen 1.0
+ */
+
+get_header(); ?>
+
+	 <div class="banner">
+      <div class="bg-color">
+        <div class="container">
+          <div class="row">
+            <div class="banner-text text-center">
+              <div class="text-border">
+                <h2 class="text-dec">Trust & Quality</h2>
+              </div>
+              <div class="intro-para text-center quote">
+                <p class="big-text">Why Do 100,000+ Email Marketers Trust Us?</p>
+               
+                <a href="#." class="btn">Find Out Today - 30 Day FREE Trial</a>
+              </div>
+              <a href="#feature" class="mouse-hover"><div class="mouse"></div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Banner-->
+    <!--Feature-->
+    <section id ="feature" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>All the tools you need to send emails the right way.</h2>
+            <p>Email is perfect for keeping your brand top of mind and staying connected with those who make a purchase, read your blog or meet you in person. And when you join the community where email automation began, you get access to all features and a team that’s 100% devoted to your success.</p>
+            <hr class="bottom-line">
+          </div>
+          <div class="feature-info">
+            <div class="fea">
+              <div class="col-md-4">
+                <div class="heading pull-right">
+                  <h4>Email automation, templates and more</h4>
+                  <p>Create and send beautiful, engaging emails in just a few minutes.</p>
+                </div>
+                <div class="fea-img pull-left">
+                 <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="fea">
+              <div class="col-md-4">
+                <div class="heading pull-right">
+                  <h4>Industry-leading deliverability</h4>
+                  <p>Have confidence that your emails make it to your subscribers’ inboxes.</p>
+                </div>
+                <div class="fea-img pull-left">
+                <i class="fa fa-plane"></i>
+                </div>
+              </div>
+            </div>
+            <div class="fea">
+              <div class="col-md-4">
+                <div class="heading pull-right">
+                  <h4>Mobile Apps</h4>
+                  <p>Get new email subscribers and see how your emails are performing when you’re on the go.</p>
+                </div>
+                <div class="fea-img pull-left">
+                  <i class="fa fa-mobile" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!--/ feature-->
+      <!--Testimonial-->
+    <section id="testimonial" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2 class="white">See What Our Customer Are Saying?</h2>
+            <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+            <hr class="bottom-line bg-white">
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="text-comment">
+              <p class="text-par">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nec sagittis sem"</p>
+              <p class="text-name">Abraham Doe - Creative Dırector</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="text-comment">
+              <p class="text-par">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nec sagittis sem"</p>
+              <p class="text-name">Abraham Doe - Creative Dırector</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Testimonial-->
+     <!--work-shop-->
+    <section id="work-shop" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Connect with your favorite apps.</h2>
+            <p>Connecting other platforms with our company makes it easier to follow up after someone gives you their email address. If they make a purchase with PayPal or register for a webinar on a landing page, we’ll make sure they get added to your email list so you can focus on sending the perfect email.</p>
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-box text-center">
+              <div class="icon-box">
+               <img src="<?php bloginfo('template_url');?>/img/fb.png" />
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-box text-center">
+              <div class="icon-box">
+                <img src="<?php bloginfo('template_url');?>/img/wordpress.png" width="200"/>
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-box text-center">
+              <div class="icon-box">
+                 <img src="<?php bloginfo('template_url');?>/img/leadpages.png" />
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-box text-center">
+              <div class="icon-box">
+                <img src="<?php bloginfo('template_url');?>/img/paypal.png" width="200"/>
+              </div>
+              
+            </div>
+                
+          </div>
+           <div class="col-md-12 center">
+      <a href="#" alt="Start Your 30-Day Free Trial Today" class="block-button sage2-bg">Start Your 30-Day Free Trial Today</a>
+    </div>
+        </div>
+      </div>
+     
+    </section>
+    <!--/ work-shop-->
+  <section class="lower-section">
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 style="color:#fff;">More about email automation.</h2>
+          <p>Discover how easy it is to create an automated email campaign with our sleek new drag and drop editor.</p>
+          <div class="intro-para quote">
+          <a href="#" alt="Email Marketing Features" class="btn">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 style="color:#fff;">Pricing that works for you.</h2>
+          <p>When you get all the email marketing tools you need for one price, you get the most for your money – really. </p>
+           <div class="intro-para quote">
+               <a href="#" alt="Affordable Opt-in Email Marketing" class="btn">Learn More</a>
+              </div>
+          
+        </div>
+      </div>
+    </div>
+   
+  
+</section>
+
+<?php get_footer(); ?>
