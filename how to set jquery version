@@ -1,0 +1,4 @@
+<script src="<?php echo  get_stylesheet_directory_uri();?>/js/demo.js?ver=1.1"></script>
+
+
+demo.js?ver=1.1"
