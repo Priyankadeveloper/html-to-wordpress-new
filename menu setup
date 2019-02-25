@@ -1,0 +1,8 @@
+wp_nav_menu( array(
+    'theme_location' => 'top-menu',
+	'menu' => 'primary',
+    'menu_class'=> 'nav navbar-nav navbar-right',
+    'container' => false,
+    'items_wrap' => '<ul  style="display: flex;
+    float: right;" class="nav your_custom_class">%3$s</ul>',
+));
