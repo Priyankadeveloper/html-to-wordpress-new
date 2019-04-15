@@ -1,0 +1,5 @@
+UPDATE wp_options SET option_value = replace(option_value, 'http://bluediamondresearch.com/WEB01/St-Promotion/', 'https://st-promotion.ch/') WHERE option_name = 'home' OR option_name = 'siteurl';
+
+UPDATE wp_posts SET post_content = replace(post_content, 'http://bluediamondresearch.com/WEB01/St-Promotion/', 'https://st-promotion.ch/');
+
+UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://bluediamondresearch.com/WEB01/St-Promotion/','https://st-promotion.ch/');
